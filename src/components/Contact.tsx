@@ -30,10 +30,10 @@ export default function Contact({ visibleElements }: AnimationProps) {
             data-animate-id="contact-title"
             className={`transition-all duration-1000 ${visibleElements.has('contact-title') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           >
-            <h2 className="text-5xl md:text-6xl font-bold mb-6">
+            <h2 className="text-6xl md:text-7xl mb-6">
               Let&apos;s <span className="gradient-text">Connect</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Ready to bring your ideas to life? Let&apos;s discuss your next project and create something amazing together.
             </p>
           </div>
@@ -44,7 +44,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
             data-animate-id="contact-info"
             className={`transition-all duration-1000 ${visibleElements.has('contact-info') ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}
           >
-            <h3 className="text-3xl font-bold mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
+            <h3 className="text-4xl mb-8 bg-gradient-to-r from-foreground to-muted-foreground bg-clip-text text-transparent">
               Get In Touch
             </h3>
             
@@ -53,35 +53,35 @@ export default function Contact({ visibleElements }: AnimationProps) {
                 <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl flex items-center justify-center">
                   <span className="text-2xl">📧</span>
                 </div>
-                <div>
-                  <div className="font-bold text-lg">Email</div>
-                  <div className="text-muted-foreground">{contactInfo.email}</div>
-                </div>
+                  <div>
+                    <div className="text-xl">Email</div>
+                    <div className="text-muted-foreground text-lg">{contactInfo.email}</div>
+                  </div>
               </div>
               
               <div className="flex items-center space-x-6 p-6 bg-gradient-to-r from-secondary/5 to-accent/5 rounded-2xl border border-secondary/10 hover:border-secondary/30 transition-all duration-300 hover:scale-105">
                 <div className="w-16 h-16 bg-gradient-to-br from-secondary/20 to-accent/20 rounded-xl flex items-center justify-center">
                   <span className="text-2xl">📱</span>
                 </div>
-                <div>
-                  <div className="font-bold text-lg">Phone</div>
-                  <div className="text-muted-foreground">{contactInfo.phone}</div>
-                </div>
+                  <div>
+                    <div className="text-xl">Phone</div>
+                    <div className="text-muted-foreground text-lg">{contactInfo.phone}</div>
+                  </div>
               </div>
               
               <div className="flex items-center space-x-6 p-6 bg-gradient-to-r from-accent/5 to-primary/5 rounded-2xl border border-accent/10 hover:border-accent/30 transition-all duration-300 hover:scale-105">
                 <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-primary/20 rounded-xl flex items-center justify-center">
                   <span className="text-2xl">📍</span>
                 </div>
-                <div>
-                  <div className="font-bold text-lg">Location</div>
-                  <div className="text-muted-foreground">{contactInfo.location}</div>
-                </div>
+                  <div>
+                    <div className="text-xl">Location</div>
+                    <div className="text-muted-foreground text-lg">{contactInfo.location}</div>
+                  </div>
               </div>
             </div>
 
             <div className="mt-12">
-              <h4 className="text-xl font-bold mb-6">Follow Me</h4>
+              <h4 className="text-2xl mb-6">Follow Me</h4>
               <div className="flex space-x-4">
                 {socialLinks.map((social, index) => (
                   <a 
@@ -102,7 +102,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
           >
             <form className="space-y-8">
               <div>
-                <label className="block text-lg font-bold mb-3">Name</label>
+                  <label className="block text-xl mb-3">Name</label>
                 <input 
                   type="text" 
                   className="w-full px-6 py-4 border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary bg-background/50 backdrop-blur-sm transition-all duration-300 focus:scale-105"
@@ -110,7 +110,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
                 />
               </div>
               <div>
-                <label className="block text-lg font-bold mb-3">Email</label>
+                  <label className="block text-xl mb-3">Email</label>
                 <input 
                   type="email" 
                   className="w-full px-6 py-4 border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary bg-background/50 backdrop-blur-sm transition-all duration-300 focus:scale-105"
@@ -118,7 +118,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
                 />
               </div>
               <div>
-                <label className="block text-lg font-bold mb-3">Message</label>
+                  <label className="block text-xl mb-3">Message</label>
                 <textarea 
                   rows={6}
                   className="w-full px-6 py-4 border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary bg-background/50 backdrop-blur-sm transition-all duration-300 focus:scale-105"
@@ -127,7 +127,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
               </div>
               <button 
                 type="submit"
-                className="w-full px-8 py-5 bg-gradient-to-r from-primary to-secondary text-primary-foreground rounded-xl font-bold text-lg hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+                  className="w-full px-8 py-5 bg-gradient-to-r from-primary to-secondary text-primary-foreground rounded-xl text-xl hover:from-primary/90 hover:to-secondary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
               >
                 Send Message
               </button>

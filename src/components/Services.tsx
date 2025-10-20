@@ -56,10 +56,10 @@ export default function Services({ visibleElements }: AnimationProps) {
             data-animate-id="services-title"
             className={`transition-all duration-1000 ${visibleElements.has('services-title') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}
           >
-            <h2 className="text-5xl md:text-6xl font-bold mb-6">
+            <h2 className="text-6xl md:text-7xl mb-6">
               My <span className="gradient-text">Services</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+            <p className="text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
               Comprehensive web development solutions tailored to your business needs, 
               delivered with cutting-edge technology and exceptional attention to detail.
             </p>
@@ -75,12 +75,12 @@ export default function Services({ visibleElements }: AnimationProps) {
               style={{ transitionDelay: `${index * 0.1}s` }}
             >
               <div className="text-5xl mb-6 group-hover:scale-110 transition-transform duration-300">{service.icon}</div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors duration-300">{service.title}</h3>
-              <p className="text-muted-foreground mb-6 leading-relaxed">{service.description}</p>
+              <h3 className="text-3xl mb-4 group-hover:text-primary transition-colors duration-300">{service.title}</h3>
+              <p className="text-muted-foreground mb-6 leading-relaxed text-lg">{service.description}</p>
               
               <div className="space-y-2">
                 {service.features.map((feature, featureIndex) => (
-                  <div key={featureIndex} className="flex items-center text-sm text-primary/80">
+                  <div key={featureIndex} className="flex items-center text-base text-primary/80">
                     <span className="w-2 h-2 bg-primary rounded-full mr-3"></span>
                     {feature}
                   </div>
@@ -88,7 +88,7 @@ export default function Services({ visibleElements }: AnimationProps) {
               </div>
               
               <div className="mt-6 pt-6 border-t border-border/50">
-                <button className="w-full py-3 px-6 bg-gradient-to-r from-primary/10 to-secondary/10 text-primary rounded-lg font-semibold hover:from-primary hover:to-secondary hover:text-primary-foreground transition-all duration-300 group-hover:scale-105">
+                <button className="w-full py-4 px-6 bg-gradient-to-r from-primary/10 to-secondary/10 text-primary rounded-lg text-lg hover:from-primary hover:to-secondary hover:text-primary-foreground transition-all duration-300 group-hover:scale-105">
                   Learn More
                 </button>
               </div>

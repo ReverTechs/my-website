@@ -14,7 +14,7 @@ export default function Hero({ isLoaded }: HeroProps) {
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className={`transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
+          <h1 className="text-6xl md:text-8xl mb-6">
             <span className={`inline-block transition-all duration-1200 delay-300 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
               <span className="gradient-text">Full Stack</span>
             </span>
@@ -23,15 +23,15 @@ export default function Hero({ isLoaded }: HeroProps) {
               Developer
             </span>
           </h1>
-          <p className={`text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto transition-all duration-1000 delay-700 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <p className={`text-2xl md:text-3xl text-muted-foreground mb-8 max-w-4xl mx-auto transition-all duration-1000 delay-700 leading-relaxed ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             Creating innovative web solutions with modern technologies. 
             Passionate about building exceptional digital experiences that make a difference.
           </p>
           <div className={`flex flex-col sm:flex-row gap-4 justify-center transition-all duration-1000 delay-900 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-            <button className="px-8 py-4 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
+            <button className="px-10 py-5 bg-primary text-primary-foreground rounded-lg text-lg hover:bg-primary/90 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               View My Work
             </button>
-            <button className="px-8 py-4 border border-border text-foreground rounded-lg font-semibold hover:bg-accent transition-all duration-300 shadow-lg hover:shadow-xl">
+            <button className="px-10 py-5 border border-border text-foreground rounded-lg text-lg hover:bg-accent transition-all duration-300 shadow-lg hover:shadow-xl">
               Get In Touch
             </button>
           </div>
