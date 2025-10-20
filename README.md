@@ -1,37 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blessings Chilemba - Personal Portfolio Website
 
-## Getting Started
+A stunning, modern personal portfolio website built with Next.js 15, TypeScript, and Tailwind CSS v4.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional design with gradient accents and glass morphism effects
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Smooth Animations**: Custom CSS animations and transitions for enhanced user experience
+- **Dark/Light Mode**: Automatic theme switching based on user preference
+- **Performance Optimized**: Built with Next.js 15 and optimized for speed
+- **SEO Ready**: Proper metadata and Open Graph tags for better search engine visibility
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Fonts**: Geist Sans & Geist Mono
+- **Deployment**: Vercel Ready
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── globals.css          # Global styles and design system
+│   ├── layout.tsx           # Root layout with metadata
+│   └── page.tsx             # Home page with all sections
+├── public/                  # Static assets
+└── ...
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design System
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The website uses a comprehensive design system with:
+- Custom CSS variables for consistent theming
+- Gradient backgrounds and text effects
+- Glass morphism components
+- Smooth animations and transitions
+- Responsive typography scale
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Open your browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Sections
 
-## Deploy on Vercel
+- **Hero**: Eye-catching introduction with call-to-action buttons
+- **About**: Personal information and skills showcase
+- **Services**: Comprehensive list of offered services
+- **Contact**: Contact form and social media links
+- **Footer**: Additional links and copyright information
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# my-website
+- Optimized images with Next.js Image component
+- Efficient CSS with Tailwind CSS v4
+- Smooth scrolling and animations
+- Responsive design for all screen sizes
+
+## 📄 License
+
+© 2024 Blessings Chilemba. All rights reserved.
+
+---
+
+Built with ❤️ by Blessings Chilemba
