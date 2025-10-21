@@ -122,7 +122,7 @@ export default function Contact({ visibleElements }: AnimationProps) {
                 <textarea 
                   rows={6}
                   className="w-full px-6 py-4 border border-border rounded-xl focus:outline-none focus:ring-2 focus:ring-primary bg-background/50 backdrop-blur-sm transition-all duration-300 focus:scale-105"
-                  placeholder="Tell me about your project..."
+                  placeholder="Write the message..."
                 ></textarea>
               </div>
               <button 

@@ -72,7 +72,7 @@ The website uses a comprehensive design system with:
 
 ## 📄 License
 
-© 2024 Blessings Chilemba. All rights reserved.
+© 2025 Blessings Chilemba. All rights reserved.
 
 ---
 

@@ -60,7 +60,7 @@ export default function Services({ visibleElements }: AnimationProps) {
               My <span className="gradient-text">Services</span>
             </h2>
             <p className="text-2xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-              Comprehensive web development solutions tailored to your business needs, 
+              Comprehensive Mobile Apps & Web development solutions tailored to your business needs, 
               delivered with cutting-edge technology and exceptional attention to detail.
             </p>
           </div>
